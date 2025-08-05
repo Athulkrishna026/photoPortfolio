@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+ <!--animate  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <!-- aos -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+  <body>
+    <div id="container">
+      <!-- navbar -->
+      <nav>
+        <!-- logo -->
+        <img
+          class="logo"
+          src="https://s3.dualstack.us-east-1.amazonaws.com/cdn.designcrowd.com/blog/famous-a-mazing-logos-that-make-an-impact/logo%20samples/Logos/A%20Logos%20%28Black%29/A-logo-design-Joyanta-Ray.jpg"
+          alt=""
+        />
+        <!-- links -->
+        <ul>
+          <li class="list-items"><a class="links" href="#home">Home</a></li>
+          <li class="list-items"><a class="links" href="#about">About</a></li>
+          <li class="list-items"><a class="links" href="#skill">Skills</a></li>
+          <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- home -->
+      <section id="home">
+        <div class="home-content">
+          <h1 class="animate__animated animate__backInLeft" id="username">I'm Maria <span id="lname">Joe</span></h1>
+          <p id="user-details">
+            This is my official portfolio website to showcase my journey <br />
+            and work in photography
+          </p>
+          <a id="download" href="./bg.png" download="">VIEW BROCHURE</a>
+        </div>
+        <div class="home-img">
+          <!-- shape -->
+          <img class="group1" src="./images/bg.png" alt="shape" id="shape" />
+          <!-- girl -->
+          <img class="group1" src="./images/ladyy.png" alt="girl" id="girl" />
+        </div>
+      </section>
+      <!-- about -->
+      <section id="about">
+        <div class="sectionhead">
+          <h2 class="mainHead">About Me</h2>
+          <span class="subHead">Introduction</span>
+        </div>
+        <div class="aboutBody">
+          <div class="aboutImg" data-aos="fade-left">
+            <img
+              class="img1"
+              src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMTJfM2RfY2hhcmFjdGVyX2lsbHVzdHJhdGlvbl9jYXJ0b29uX29mX21vZGVybl9hc19lYjk2N2ZkMC01ZjI1LTRlN2ItYjliZS1hNGQ0YTEzYjQ4YWJfMS5qcGc.jpg"
+              alt=""
+            />
+          </div>
+          <div class="aboutContent">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+              ratione officiis exercitationem voluptatibus soluta ab adipisci
+              praesentium cumque quam hic placeat non distinctio numquam
+              consequatur nihil voluptatum, itaque illum eveniet.
+            </p>
+            <div class="information">
+              <div class="inforBox">
+                <i class="fa-solid fa-user"></i>
+                <span>Maria joe</span>
+              </div>
+              <div class="inforBox">
+                <i class="fa-solid fa-phone"></i>
+                <span>9665664566</span>
+              </div>
+              <div class="inforBox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>maria@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skill">
+        <div class="sectionhead">
+          <h2 class="mainHead">Skills</h2>
+          <span class="subHead">My Skills</span>
+        </div>
+        <div class="skillContent">
+          <div class="progressBars">
+            <!-- portrait -->
+            <div class="bars">
+              <h3 class="barHead">Portrait</h3>
+              <span class="barpercent">93%</span>
+              <div class="baseBar"></div>
+              <div class="baseBar portBar" data-aos="fade-right"></div>
+            </div>
+            <!-- landscape -->
+            <div class="bars">
+              <h3 class="barHead">Landscape</h3>
+              <span class="barpercent">81%</span>
+              <div class="baseBar"></div>
+              <div class="baseBar landBar" data-aos="fade-right"></div>
+            </div>
+
+            <!-- editing -->
+            <div class="bars">
+              <h3 class="barHead">Editing</h3>
+              <span class="barpercent">100%</span>
+              <div class="baseBar"></div>
+              <div class="baseBar editBar" data-aos="fade-right"></div>
+            </div>
+            <!-- wildlife -->
+            <div class="bars">
+              <h3 class="barHead">Wildlife</h3>
+              <span class="barpercent">90%</span>
+              <div class="baseBar"></div>
+              <div class="baseBar wildBar" data-aos="fade-right"></div>
+            </div>
+          </div>
+          <div class="skillImage">
+            <img
+              src="https://demo.templateflip.com/super/images/illustrations/hello3.svg"
+              alt=""
+              class="mySkill"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+       <section id="contact">
+        <div class="sectionhead">
+          <h2 class="mainHead">Contacts</h2>
+          <span class="subHead">My Contacts</span>
+        </div>
+        <div class="iconCollection">
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/athuls026" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/athuls026" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/athuls026" target="_blank"><i class="fa-brands fa-x-twitter brands"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/athuls026" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/athuls026" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+          </div>
+        </div>
+       </section>
+       <!-- footer -->
+        <footer>
+          <p id="copyright">&copy;Maria Joe photography Porfolio - june 2024,&reg;All Rights Reserved</p>
+           <div class="icon upArrow">
+            <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+          </div>
+
+        </footer>
+    </div>
+
+    <!-- script -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+  AOS.init();
+</script>
+
+  </body>
+</html>
